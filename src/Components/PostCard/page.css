@@ -1,0 +1,237 @@
+.page{
+    width: 1349px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.pageAll{
+  margin: auto 10px;
+  padding: 60px 30px;
+  
+}
+
+.vehicles{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    width: 50%;
+    color: rgb(155, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:hover.Cantt{
+    color: black;
+    cursor: pointer;
+}
+
+
+.carsoulOpen{
+    width: 100%;
+    height: 600px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.car123{
+    width: 60%;
+    border: solid 1px  rgb(155, 153, 153);
+    border-radius: 5px;
+}
+.box{
+    margin-top: -40px;
+    height: 500px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.slidies{
+    margin-left: 40px;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    
+}
+
+.pictures{
+    width: 90%;
+    align-items: center !important;
+    
+}
+
+
+.ImgAddress{
+    margin-left: 100px;
+    width: 70%;
+    height: 400px;
+    margin-top: 45px;
+}
+
+
+.br123{
+    width: 38%;    
+}
+
+.chat{
+    width: 100%;
+    height: 200px;
+    border: solid 1px  rgb(155, 153, 153);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+h1{
+    color: #002f34;  
+    font-weight: 650 !important ;
+   
+}
+
+.kms{
+    font-size: 17px;
+    color: #002f34;
+}
+
+.camry{
+    color: rgb(126, 126, 126);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.locda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location{
+    color: rgb(126, 126, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.date{
+    color: rgb(126, 126, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+
+
+.description{
+    width: 100%;
+    height: 250px;
+    border: solid 1px  rgb(155, 153, 153);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+h3{
+    color: #002f34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sellers{
+    display: flex;
+    flex-direction: row;
+}
+
+.carNax{
+    margin-top: 14px;
+    color: #002f34;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.member{
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    color: #797979 !important;
+}
+
+.SellerBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.CHS{
+    width: 90%;
+    background-color: #002f34;
+    border: 6px solid #002f34;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+:hover.CHS{
+    background-color: white;
+    color: #002f34;
+    font-weight: bold;
+}
+
+.caller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.callicon,.star{
+    color: #002f34;
+    
+}
+
+.Num{
+    color: rgb(25, 121, 211);
+    cursor: pointer;
+}
+
+.detail{
+    width: 60%;
+    
+    border: solid 1px  rgb(155, 153, 153);
+    border-radius: 5px;
+    margin-top: -17px;
+    
+}
+
+h4{
+    color:  #002f34;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.AllDetails{
+    margin: auto 10px;
+    padding: 10px 15px;
+}
+
+
+
+.make{
+    width: 150px;
+    height: 30px;
+    color: #797979;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.model{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;    
+    height: 30px;
+    width: 150px;
+    color: black;
+}

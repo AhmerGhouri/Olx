@@ -1,0 +1,250 @@
+.Scroll {
+    width: 155px;
+    height: 40px;
+    margin: auto 45%;
+    padding: 6px 10px;
+    border: none;
+    color: #002f34;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: gray 0px 4px 10px;
+    background: white;
+}
+
+.Top {
+    font-weight: bold;
+    color: #002f34;
+    border-style: none;
+    outline: none;
+    background: white;
+}
+
+:focus.Top {
+    background-color: #949b9c;
+    color: #eaeeee;
+}
+
+:focus-within.Scroll {
+    background-color: #949b9c;
+    color: #eaeeee;
+}
+
+.scroll-to-top {
+    margin-top: 90px;
+}
+
+.b123r{
+    width: 1349px;
+}
+
+.tainer {
+    width: 1349px;
+    display: inline;
+    justify-content: center ;
+    align-items: center ;
+    
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.more {
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border: 2px solid #002f34;
+    color: #002f34;
+    font-weight: 700;
+    font-size: 1.09em;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-rendering: auto;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+:hover.more {
+    border: #002f34 solid 5px;
+}
+
+:focus-within.more {
+    background-color: #949b9c;
+    color: #eaeeee;
+}
+
+.popular {
+    width: 1349px;
+    display: flex;
+    justify-content: space-around;
+    background: #ebeeef;
+    padding: 16px 32px;
+    border-top: 1px solid rgba(0, 47, 52, .2);
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+.flower {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.pop {
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-basis: 17%;
+    color: #002f34;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+ul {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 47, 52, .64);
+    text-transform: none;
+    margin-top: -8px;
+}
+
+li {
+    display: list-item;
+    list-style: none;
+    margin-top: 2px;
+}
+
+li:hover {
+    color: #002f34;
+}
+
+.para {
+    margin-left: 37px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.HR123 {
+    margin-left: 80px;
+    margin-top: 2px;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+}
+
+.font {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    background: none !important;
+    
+}
+
+.fa-facebook {
+    color: rgba(0,47,52,.64);
+    border: 2px solid #07464dca;
+    padding: 3px 6px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+}
+
+.fa-twitter {
+    color: rgba(0,47,52,.64);
+    border: 2px solid #07464dca;
+    padding: 4px 5px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fa-play {
+    color: rgba(0,47,52,.64);
+    border: 2px solid #07464dca;
+    padding: 4px 5px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fa-instagram {
+    
+    color: rgba(0,47,52,.64);
+    border: 2px solid #07464dca;
+    padding: 4px 5px;
+    border-radius: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.play{
+    margin-top: 50px;
+}
+
+.store{
+    margin-left: 10px;
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    background-color: #002f34;
+
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    margin: auto 55px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+
+.f {
+    color: #eaeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.countries{
+    display: inline-block;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+
+.free{
+    display: inline;
+    color: #eaeeee;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 600px;
+}

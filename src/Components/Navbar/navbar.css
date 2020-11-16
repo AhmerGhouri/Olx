@@ -1,0 +1,49 @@
+.Drop {
+    width: 1349px;
+    display: flex;
+    padding-top: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    border-bottom: solid 1px rgb(214, 213, 213);
+    box-shadow: 12px 8px 12px rgba(148, 147, 147, 0.541);
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.categories {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto 25px;
+    cursor: pointer;
+}
+
+.all {
+    margin: auto 5px;
+    font-weight: bold;
+    color: #002f34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.links {
+    display: flex;
+    margin: auto 1px;
+    padding: 5px 15px;
+    flex-wrap: nowrap;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin: auto 10px;
+    color: #002f34;
+    font-size: 0.95em;
+}
+
+.nav:hover {
+    color: #68a9b1;
+    cursor: pointer;
+}
