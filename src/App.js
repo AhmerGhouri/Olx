@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import AppRouter from './Router/router';
 import { BrowserRouter, Route } from 'react-router-dom';
-import PageRout from './Components/PostCard/cardPg'
+import PageRout from './Pages/DetailCardPage/cardPg'
 
 
 export default class FooClass extends React.Component {

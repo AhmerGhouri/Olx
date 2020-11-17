@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Header/Header'
-import Home from '../Navbar/Navbar'
+import Header from '../../Components/Header/Header'
+import Home from '../../Components/Navbar/Navbar'
 import './page.css'
 import CallIcon from '@material-ui/icons/Call';
-import Top from '../lower/footer';
+import Top from '../../Components/lower/footer';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

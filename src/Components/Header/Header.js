@@ -11,7 +11,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { Google_Login, Facebook_Login } from '../../Redux store/Login_action/action';
 import PopUp from '../Popup/popup';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

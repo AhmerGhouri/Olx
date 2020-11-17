@@ -1,0 +1,49 @@
+.na{
+    
+    padding-top: 10px;
+
+}
+
+
+#mySidenav a {
+    position: fixed; 
+    right: -2px; 
+    transition: 0.3s; 
+    padding: 10px 12px 10px 10px; 
+    width: 80px; 
+    text-decoration: none;
+    font-size: 14px; 
+    color: white; 
+    border-radius:3px 0 0 3px; 
+    transform: rotate(360deg);
+    vertical-align: baseline;
+    box-sizing: initial;
+    height: auto;
+    direction: ltr !important;
+    text-align: left;
+}
+  
+#mySidenav a:hover {
+    right: 0;
+
+}
+
+#Feedback {
+
+    background-color:#3a77ff;
+    transition: box-shadow 0.1s ease-in-out;
+    box-sizing: border-box !important;
+    border: 0;
+    outline: 0;
+    font-size: 50%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    float: none !important;
+    font-weight: normal !important;
+    height: auto;
+    text-transform: initial !important;
+    letter-spacing: normal !important;
+    direction: ltr !important;
+    text-align: left;
+}

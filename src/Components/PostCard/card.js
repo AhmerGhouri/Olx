@@ -21,6 +21,8 @@ class Card extends React.Component {
 
             <div className="sub">
 
+
+
                 <div>
 
                     <ul>

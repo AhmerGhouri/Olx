@@ -2,87 +2,98 @@ import React from 'react';
 import Header from '../../Components/Header/Header'
 import Home from '../../Components/Navbar/Navbar'
 import Image from '../../Components/Logo/image'
-import Card from '../DetailCardPage/card'
+import Card from '../../Components/PostCard/card'
 import Top from '../../Components/lower/footer'
 import ScrollToTop from '../../Components/lower/Scroll'
 import FooterAd from '../../Components/FooterAd/FooterAd';
 import LoadBtn from '../../Components/load/button';
 import { connect } from 'react-redux';
+import './feedback.css'
 
 
 
 class FrontPage extends React.Component {
 
-        render() {
+    render() {
 
-            const { Post_Ads } = this.props
+        const { Post_Ads } = this.props
 
-            return (
-
-
-                <div className="foo">
-
-                    <div>
-
-                        <Header />
-
-                    </div >
-
-                    <div>
-
-                        <Home />
-
-                    </div>
-
-                    <div>
-
-                        <Image />
-
-                    </div>
-
-                    <div>
-
-                        <Card  Post_Ads={Post_Ads}/>
-
-                    </div>
-
-                    <div>
-
-                        <LoadBtn />
-
-                    </div>
+        return (
 
 
-                    <div>
+            <div className="foo">
 
-                        <FooterAd />
+                <div>
 
-                    </div>
+                    <Header />
+
+                </div >
+
+                <div>
+
+                    <Home />
+
+                </div>
+
+                <div>
+
+                    <Image />
+
+                </div>
+
+                <div className="na">
 
 
-                    <div>
-
-                        <Top />
-
-                    </div>
-
-                    <div>
-
-                        <ScrollToTop />
-
-                    </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" id="Feedback">Feedback</a>
+                </div>
 
 
+                </div>
+
+                <div>
+
+                    <Card Post_Ads={Post_Ads} />
+                </div>
 
 
+                <div>
+
+                    <LoadBtn />
+
+                </div>
+
+
+                <div>
+
+                    <FooterAd />
+
+                </div>
+
+
+                <div>
+
+                    <Top />
+
+                </div>
+
+                <div>
+
+                    <ScrollToTop />
 
                 </div>
 
 
 
-            )
-        }
+
+
+            </div>
+
+
+
+        )
     }
+}
 
 
 

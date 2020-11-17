@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import '../lower/footer.css'
-import appstore from '../../image/appstore.webp'
-import playstore from '../../image/playstore.webp'
+import React, { Component } from 'react';
+import '../lower/footer.css';
+import appstore from '../../image/appstore.webp';
+import playstore from '../../image/playstore.webp';
 
 
 export default class Top extends Component {

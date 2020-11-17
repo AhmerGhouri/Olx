@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import FrontPage from '../Pages/HomePage/Home';
 import PostToAdd from '../Pages/PostPage/postCard';
-import PageRout from '../Components/PostCard/cardPg'
+import PageRout from '../Pages/DetailCardPage/cardPg'
 
 class AppRouter extends React.Component {
     render() {
